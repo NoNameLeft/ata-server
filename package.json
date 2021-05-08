@@ -1,13 +1,25 @@
 {
   "name": "ata-test-server",
-  "version": "1.0.0",
-  "description": "A simple REST API server for testing and prototyping.",
+  "version": "0.3.3",
+  "description": "A simple fake REST API server for testing and prototyping.",
   "scripts": {
     "start": "node index"
   },
   "dependencies": {
     "clone": "^1.0.2",
-    "json-server": "^0.16.3"
+    "json-server": "^0.16.3",
+    "marked": "^2.0.3"
+  },
+  "devDependencies": {
+    "Faker": "~0.5.11",
+    "husky": "^2.4.1",
+    "nodemon": "^1.19.1",
+    "pupa": "^2.0.0",
+    "rosie": "~1.6.0",
+    "showdown": "^1.9.0",
+    "supertest": "^3.1.0",
+    "tape": "^4.5.1",
+    "underscore": "^1.13.1"
   },
   "engines": {
     "node": "10.x"
