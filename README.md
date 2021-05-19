@@ -1,5 +1,5 @@
-# ata-test-server
-Simple JSON API for testing.
+# ata-server
+Simple NodeJS server
 
 # Initial start up
 
@@ -7,8 +7,8 @@ Simple JSON API for testing.
 
 Installs all the necessary packages.
 
-## `node index`
+## `npm start`
 
-Starts the REST API server on port 8080.\
-Now open [http://localhost:8080/users](http://localhost:8080/users).\
-Voilà! You got yourself a fully working JSON test server.
+Starts the server on port 5000.\
+Now open [http://localhost:5000/](http://localhost:5000/).\
+Voilà! Server is ready to use.
